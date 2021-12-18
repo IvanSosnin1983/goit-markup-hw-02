@@ -1,0 +1,47 @@
+:root{
+    --color-prime: #000000;
+    --color-hover: #2196F3
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/* Цвет основного текста  #757575  */
+/* Цвет дополнительного текста #212121 */
+/* Цвет фона белый  */
+
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* ----------------------------header------------------ */
+.header-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    Font size: 26px;
+    Line height: 1.19;
+    color: var(--color-prime);
+}
+.header-logo-web{
+    color: #2196F3;
+}
+.header-nav{
+    Font-family: Roboto;
+    Font-weight: 500;
+    Font-size: 14px;
+    Line-height: 1.14;
+    Letter-spacing: 2%;
+    
+}
+.header-link{
+    color: var(--color-prime);
+}
+.header-link:hover{
+    color: var(--color-hover);
+    
+}
