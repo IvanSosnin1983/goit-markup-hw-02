@@ -30,7 +30,7 @@ body {
 .header-logo-web{
     color: #2196F3;
 }
-.header-nav{
+.header-nav,.header-list{
     Font-family: Roboto;
     Font-weight: 500;
     Font-size: 14px;
