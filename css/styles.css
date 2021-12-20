@@ -1,15 +1,15 @@
 :root{
+    --title-color-text: #212121;
+    --primery-color-text: #757575;
     --color-prime: #000000;
-    --color-hover: #2196F3
+    --color-hover: #2196F3;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    
 }
 
-/* Цвет основного текста  #757575  */
+/* Цвет заголовка секции  #757575  */
 /* Цвет дополнительного текста #212121 */
 /* Цвет фона белый  */
 
@@ -21,26 +21,149 @@ body {
 }
 /* ----------------------------header------------------ */
 .header-logo{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     Font size: 26px;
     Line height: 1.19;
     color: var(--color-prime);
 }
-.header-logo-web{
+.header-web{
     color: #2196F3;
 }
 .header-nav,.header-list{
-    Font-family: Roboto;
     Font-weight: 500;
     Font-size: 14px;
     Line-height: 1.14;
     Letter-spacing: 2%;
-  }
+}
+.header-nav .header-list .current{
+    color: var(--color-hover);
+}
 .header-link{
     color: var(--color-prime);
 }
-.header-link:hover{
+.header-link:hover, .header-link:focus{
     color: var(--color-hover);
     
+}
+
+/*------------------------ HERO---------------- */
+.hero{
+    background-color: #757575;
+}
+.hero .hero-title{
+    color: white;
+    Font-family: Roboto;
+    font-weight: 900;
+    Font-size: 44px;
+    Line-height: 1.36;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+.hero>.button{
+    color: white;
+    background-color: var(--color-hover);
+    font-weight: 700;
+    Font-style: Bold;   
+    Font-size: 16px;
+    Line-height: 1.875;
+    Letter-spacing: 6%;
+}
+.hero>.button:hover, .hero>.button:focus{
+    background-color: #188CE8;
+}
+
+/* ---------------------SECTION--------------- */
+.section-title{
+    color: var(--title-color-text);
+    font-weight: 700;
+    Font-size: 36px;
+    Line-height: 1.17;
+    Letter-spacing: 3%;
+}
+.secondary-title{
+    color: var(--title-color-text);
+    font-weight: 700;
+    Font-size: 14px;
+    Line-height: 1.14;
+    Letter-spacing: 3%;
+    text-transform: uppercase;
+}
+.section-text{
+    color: var(--primery-color-text);
+    font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.71;
+    Letter-spacing: 3%;
+}
+
+/* -------------------- FOOTER------------ */
+
+.footer{
+    background: #2F303A
+;
+}
+
+.footer-logo{
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer-address{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-mail, .footer-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------------Portfolio--------- */
+
+/* ---------FILTER BUTTONS------------ */
+.btn{
+    background-color: #F5F4FA;
+    color: var(--title-color-text);
+    font-style: 500;
+    Font-size: 16px;
+    Line-height: 1.63;
+    Letter-spacing: 3%;
+}
+
+.btn:hover, .btn:focus{
+    background-color: var(--color-hover);
+    color: #ffffff;
+    font-style: 500;
+    Font-size: 16px;
+    Line-height: 1.63;
+    Letter-spacing: 3%;
+}
+
+/* -----------Галерея----------------- */
+
+.filter-title{
+    color: var(--title-color-text);
+    Font-style: 700;
+    Font-size: 18px;
+    Line-height: 2;
+    Letter-spacing: 6%;
+}
+.filter-text{
+color: var(--primery-color-text);
+Font-style: 400;
+Font-size: 16px;
+Line-height: 1.86;
+Letter-spacing: 3%;
 }
